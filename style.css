@@ -22,4 +22,12 @@ footer p{
     font-size: 0.6rem;
     margin: 0.5rem;
 }
+#container{
+    display: flex;
+}
+.cartao{
+    margin: 1rem;
+    background-color: aquamarine;
+    height: 20rem;
+}
 
