@@ -3,11 +3,12 @@
     --text-color: #DBE4EF;
     --cor-cartao-frente: #144480;
     --cor-cartao-verso: #00F4BF;
+    border: 1px solid var(--cor-cartao-frente);
 }
 
 body{
     font-family: 'Bai Jamjuree';
-    background-color: whitesmoke;
+    background-image:url(img/bg-desktop.webp)
 }
 
 footer{
@@ -29,5 +30,24 @@ footer p{
     margin: 1rem;
     background-color: aquamarine;
     height: 20rem;
+}
+
+.cartao-conteudo{
+    text-align: center;
+    height: 100%;
+    background-color: 1px solid var(--cor-cartao-frente);
+}
+.cartao-conteudo h3{
+    background-color: plum;
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+    margin: 0.6rem;
+    border: solid 1px;
+    
+    
+
 }
 
