@@ -17,5 +17,6 @@ function criaCartao(categoria,pergunta,resposta){
 }
 
 criaCartao('Biologia','Qual a função da mitocôndria?','Criar ATP')
-criaCartao('Piada','Por que o jacaré pai deixou o jacaré filho de castigo?','Porque ele réptil de ano.')
+criaCartao('Piada','porque a galinha atravessou a rua?','pra chegar ao outro lado!')
+criaCartao('cantada','você é deficiente de perna?','pq seria mancada sua não me dar uma chance')
  
